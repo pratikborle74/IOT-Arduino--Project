@@ -65,6 +65,9 @@ This project focuses on developing an IoT-based Smart City Infrastructure, integ
 - **Cloud-Based Monitoring**: Storing all data on a cloud server for real-time analytics.
 - **Integration with Smart City Networks**: Enabling automated emergency responses and adaptive urban management.
 
+## **License**  
+This project is licensed under the **MIT License** – you are free to use, modify, and distribute it with attribution.
+
 ## Contributors
 - **Pratik Borle** - Project Lead & Developer
 - **Team Members - Ananya Jhadahv, Aagam Oswal, Shreya Garudkar** (if applicable)
