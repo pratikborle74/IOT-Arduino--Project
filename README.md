@@ -5,18 +5,11 @@ It's my first year's SEM 1 project on IoT.
 
 ## Overview
 This project focuses on developing an IoT-based Smart City Infrastructure, integrating multiple subsystems to enhance urban safety, health monitoring, and environmental tracking. The key components of this project include:
-- **Toll Plaza Management System**: Automates toll collection using RFID technology.
 - **Vehicle Accident Detection System**: Detects accidents using an accelerometer and sends real-time alerts.
 - **Oximeter Health Monitoring System**: Monitors heart rate and oxygen saturation using a MAX30102 sensor.
 - **Environmental Monitoring System**: Tracks temperature and humidity using a DHT11 sensor.
 
 ## Features
-### Toll Plaza Management System
-- Uses **RFID technology** for automatic vehicle identification.
-- Microcontroller (Arduino Uno) processes vehicle entry and exit.
-- **LCD Display** shows vehicle details and toll charges.
-- Buzzer alert for unauthorized access.
-
 ### Vehicle Accident Detection System
 - **Accelerometer (ADXL345)** detects sudden impact.
 - **GSM Module** sends emergency alerts with GPS location.
@@ -35,7 +28,6 @@ This project focuses on developing an IoT-based Smart City Infrastructure, integ
 
 ## Hardware Components
 - **Arduino Uno / Nano**
-- **RFID Reader and Tags** (for Toll System)
 - **ADXL345 Accelerometer**
 - **GSM Module** (for accident detection alerts)
 - **MAX30102 Oximeter Sensor**
@@ -64,7 +56,6 @@ This project focuses on developing an IoT-based Smart City Infrastructure, integ
 5. Test each module separately before full integration.
 
 ## How It Works
-- **Toll Plaza System**: Vehicles with RFID tags pass through the toll gate, automatically deducting toll charges and updating the database.
 - **Accident Detection**: If an accident occurs, the accelerometer detects impact and the GSM module sends emergency alerts.
 - **Health Monitoring**: The oximeter sensor continuously measures health parameters and triggers alerts if abnormal readings are detected.
 - **Environmental Tracking**: Temperature and humidity data are logged and displayed for analysis and decision-making.
